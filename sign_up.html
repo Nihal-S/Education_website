@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Sign Up</title>
+</head>
+<body>
+    		<!-- Header -->
+			<header id="header">
+                    <nav class="left">
+                        <a href="#menu"><span>Menu</span></a>
+                    </nav>
+                    <a href="index.html" class="logo">Edu</a>
+                </header>   
+   <!-- Menu -->
+
+   <nav id="menu">
+        <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login_student.html">Login as a student</a></li>
+            <li><a href="login_teacher.html">Login as a teacher</a></li>
+            <li><a href="login_admin.html">Login as an admin</a></li>
+            <li><a href="sign_up.html">Sign up</a></li>
+            <li><a href="about_us.html">About us</a></li>
+            <!-- <li><a href="elements.html">Elements</a></li> -->
+        </ul>
+</nav>
+
+    <section id="main" class="wrapper">
+        <div class="inner">
+            <header class="align-center">
+                <h1>Sign up with your email address</h1>
+            </header>
+        </div>
+        <!-- Form -->
+        <span> &nbsp; You are:-</span><br><br>
+        <div class="4u 12u$(small)">
+                <input type="radio" id="priority-low" name="prof" checked>
+                <label for="priority-low">Student</label>
+            </div>
+            <div class="4u 12u$(small)">
+                <input type="radio" id="priority-normal" name="prof">
+                <label for="priority-normal">Teacher</label>
+            </div>
+            <div class="4u$ 12u$(small)">
+                <input type="radio" id="priority-high" name="prof">
+                <label for="priority-high">Admin</label>
+            </div>
+        <form method="post" action="#">
+                <div class="6u 12u$(small)">
+                        <input type="checkbox" id="copy" name="copy">
+                        <label for="copy">I agree to the terms and conditions of edu</label>
+            </div>
+                <div class="row uniform">
+                <div class="6u 12u$(xsmall)">
+                        <input type="text" name="fname" id="name" value="" placeholder="First Name" />
+                </div>
+                <div class="6u 12u$(xsmall)">
+                        <input type="text" name="lname" id="name" value="" placeholder="Last Name" />
+                </div>
+                <div class="6u$ 12u$(xsmall)">
+                        <input type="email" name="email" id="email" value="" placeholder="Email" />
+                </div>
+                <div class="6u$ 12u$(xsmall)">
+                            <input type="email" name="cemail" id="email" value="" placeholder="Confirm Email" />
+                </div>
+                <div class="6u$ 12u$(xsmall)">
+                        <input type="password" name="password" id="password" value="" placeholder="Password" />
+                </div>
+                <div class="6u$ 12u$(xsmall)">
+                        <input type="password" name="password" id="password" value="" placeholder="Confirm Password" />
+                </div>
+                <div class="6u$ 12u$(xsmall)">
+                    <span>Date of birth</span><br>
+                    <input type="date" name="dob" id="dob">
+                </div>
+                </div>
+                
+                											<!-- Break -->
+											<div class="4u 12u$(small)">
+                                                    <input type="radio" id="priority-low" name="gender" checked>
+                                                    <label for="priority-low">Male</label>
+                                                </div>
+                                                <div class="4u 12u$(small)">
+                                                    <input type="radio" id="priority-normal" name="gender">
+                                                    <label for="priority-normal">Female</label>
+                                                </div>
+                                                <div class="4u$ 12u$(small)">
+                                                    <input type="radio" id="priority-high" name="gender">
+                                                    <label for="priority-high">Non-binary</label>
+                                                </div>
+                                                <span>We may send you emails with news or promotions occasionally. Go to your Email notifications page to control the messages we send.</span>
+                                                <div class="6u$ 12u$(small)">
+                                                        <input type="checkbox" id="human" name="human" checked>
+                                                        <label for="human">I am a human and not a robot</label>
+                                                </div>
+                                                <div class="3u 12u$(small)">
+                                                        <ul class="actions vertical">
+                                                            <li><a href="#" class="button special">Submit</a></li>
+                                                        </ul>
+                                                    </div> 
+            </form>                               
+     </section>
+             <!-- Footer -->
+			<footer id="footer">
+                    <div class="inner">
+                        <h2>Get In Touch</h2>
+                        <ul class="actions">
+                            <li><span class="icon fa-phone"></span> <a href="#">(000) 000-0000</a></li>
+                            <li><span class="icon fa-envelope"></span> <a href="#">information@untitled.tld</a></li>
+                            <li><span class="icon fa-map-marker"></span> 123 Somewhere Road, Nashville, TN 00000</li>
+                        </ul>
+                    </div>
+                    <div class="copyright">
+                        &copy; Untitled. Design <a href="https://templated.co">TEMPLATED</a>. Images <a href="https://unsplash.com">Unsplash</a>.
+                    </div>
+                </footer>
+    
+            <!-- Scripts -->
+                <script src="assets/js/jquery.min.js"></script>
+                <script src="assets/js/jquery.scrolly.min.js"></script>
+                <script src="assets/js/skel.min.js"></script>
+                <script src="assets/js/util.js"></script>
+                <script src="assets/js/main.js"></script>
+</body>
+</html>
